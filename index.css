@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	/* border: 1px solid red; */
-	color: white;
 	font-family: "Karla";
 	background-color: #1f2937;
 }
@@ -17,10 +16,12 @@
 }
 
 h2 {
+	color: white;
 	font-weight: 800;
 }
 
 p {
+	color: white;
 	font-size: 22px;
 	padding-top: 10px;
 }
@@ -34,9 +35,34 @@ button {
 	width: 191px;
 	height: 42px;
 	background-color: #4adf86;
+	color: white;
 	margin-top: 50px;
 	border-radius: 10px;
-	font-size: 16px;
+	font-size: 18px;
+}
+
+.passwords-container {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+#options {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#options label {
+	color: #4adf86;
+}
+
+#options input {
+	background-color: white;
+	font-size: 14px;
+	color: #0e9343;
+	font-weight: bold;
 }
 
 .line {
@@ -45,37 +71,6 @@ button {
 	background-color: #2f3e53;
 	margin-top: 50px;
 	margin-bottom: 35px;
-}
-
-#generator-container {
-	display: flex;
-	align-items: center;
-}
-
-#password-length {
-	width: 191px;
-	height: 42px;
-	display: flex;
-	align-items: end;
-	justify-content: end;
-	margin-top: 20px;
-}
-
-#generator-container label {
-	font-size: 18px;
-	margin-right: 5px;
-	color: #4adf86;
-}
-
-#generator-container input {
-	width: 40px;
-	font-size: 18px;
-}
-
-.passwords-container {
-	display: flex;
-	margin-top: 35px;
-	justify-content: space-between;
 }
 
 .password1,
