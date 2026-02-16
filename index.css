@@ -47,6 +47,31 @@ button {
 	margin-bottom: 35px;
 }
 
+#generator-container {
+	display: flex;
+	align-items: center;
+}
+
+#password-length {
+	width: 191px;
+	height: 42px;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+	margin-top: 20px;
+}
+
+#generator-container label {
+	font-size: 18px;
+	margin-right: 5px;
+	color: #4adf86;
+}
+
+#generator-container input {
+	width: 40px;
+	font-size: 18px;
+}
+
 .passwords-container {
 	display: flex;
 	margin-top: 35px;
