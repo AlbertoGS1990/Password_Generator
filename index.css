@@ -41,6 +41,11 @@ button {
 	font-size: 18px;
 }
 
+button:active {
+	transform: scale(0.95);
+	background-color: #199747;
+}
+
 .passwords-container {
 	display: flex;
 	margin-top: 35px;
@@ -51,7 +56,7 @@ button {
 	display: flex;
 	justify-content: space-evenly;
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 35px;
 }
 
 #options label {
@@ -73,10 +78,14 @@ button {
 	margin-bottom: 35px;
 }
 
-.password1,
-.password2 {
+#password1,
+#password2 {
 	width: 211px;
 	height: 39px;
 	background-color: #2f3e53;
 	border-radius: 10px;
+	color: #4adf86;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20px;
 }
